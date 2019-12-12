@@ -119,7 +119,7 @@ for(var i=0; i< boxes.length; i++)
         x_or_o += 1;
       }
       // condition for checking the draw
-      if(x_or_o % 10===0)
+      if(x_or_o % 9===0)
       {
         // placing the draw in the html
         turn.innerHTML="Game Drawn";
